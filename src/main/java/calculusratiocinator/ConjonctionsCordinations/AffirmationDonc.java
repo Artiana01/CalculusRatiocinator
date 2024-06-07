@@ -1,4 +1,6 @@
-package calculusratiocinator;
+package calculusratiocinator.ConjonctionsCordinations;
+
+import calculusratiocinator.Affirmation;
 
 public class AffirmationDonc extends Affirmation {
     private Affirmation a1, a2;

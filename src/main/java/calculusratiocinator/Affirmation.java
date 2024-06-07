@@ -1,13 +1,13 @@
 package calculusratiocinator;
 
 public class Affirmation {
-    protected String texte;
+    public String texte;
 
     public Affirmation(String texte) {
         this.texte = texte;
     }
 
     public String evaluer() {
-        return "jenesaispas";
+        return EvalAffirmation.evaluer(this);
     }
 }

@@ -1,5 +1,8 @@
 package calculusratiocinator;
 
+import calculusratiocinator.ConjonctionsCordinations.AffirmationDonc;
+import calculusratiocinator.ConjonctionsCordinations.AffirmationEt;
+import calculusratiocinator.ConjonctionsCordinations.AffirmationOu;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
