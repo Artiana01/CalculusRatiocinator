@@ -42,4 +42,11 @@ public class AffirmationTest {
         assertEquals("faux", a4.evaluer(), "Lou est beau ou Lou est généreux. Donc Lou est pauvre");
     }
 
+    @Test
+    public void testEvaluerAffirmationIndeterminee() {
+        Affirmation affirmation = new Affirmation("Cette affirmation est indéterminée");
+
+        assertEquals("jenesaispas", affirmation.evaluer(), "L'évaluation de l'affirmation est indéterminée");
+    }
+
 }
